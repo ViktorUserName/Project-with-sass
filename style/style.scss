@@ -3,6 +3,7 @@
     margin: 0; 
     padding: 0; 
     list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
     } 
 
 $colheader: #f6f2f2;
@@ -12,20 +13,20 @@ $colli: #ff3f40;
 
 .first {
     background: $colheader;
-    position: fixed;
+    padding-top: 29px;
+}
 
+.conteiner1 {
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .menu {
     background:$colmenu;
-    width: 1250px;
     height: 90px;
-    position: relative;
-    top: 29px;
-    margin: 0px 150px 0px 150px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .menuUl {
@@ -38,6 +39,7 @@ $colli: #ff3f40;
     height: 100%;
     color: $coltext;
     font-size: 14px;
+    text-transform: uppercase;
     a {
         text-decoration: none;
         color: $coltext;
@@ -54,4 +56,57 @@ $colli: #ff3f40;
         
     }
 
+}
+
+.previeOrg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 110px 0px;
+    align-items: center;
+    h1 {
+        color: #000000;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    h3 {
+        color: #a5a2a2;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    button {
+        width: 225px;
+        height: 55px ;
+        font-size: 18px;
+        background: $colli;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+}
+
+.previeOrg__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.previeOrg__video {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    iframe {
+        box-shadow: 0px -5px 15px 18px #dcd8d8;
+    }
+}
+
+.second {
+    height: 50px;
 }
