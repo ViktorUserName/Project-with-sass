@@ -109,4 +109,104 @@ $colli: #ff3f40;
 
 .second {
     height: 50px;
+    padding-top: 110px;
+    background: #ffffff;
+}
+
+.providetxt {
+    button {
+        width: 225px;
+        height: 55px ;
+        font-size: 18px;
+        background: #ffffff;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    h3 {
+        font-size: 16px;
+        color: #333333;
+    }
+    h1 {
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #333333;
+    }
+    a {
+        text-decoration: none;
+        color: $colli;
+    }
+}
+
+.providetxt, .provid {
+    width: 50%;
+}
+
+.conteiner2 {
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.provid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 90px;
+
+}
+
+.providetxt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content: space-around;
+}
+
+.withlogos {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4c4c4c;
+    padding: 30px 0px 20px 0px;
+}
+
+.withlogos::after {
+    content: "Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe. Lorem ipsum new idolor";
+    display: block;
+    width: 290px;
+    height: 130px;
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.withlogos::before {
+    content: "";
+    margin-bottom: 30px;
+    display: block;
+    width: 41px;
+    height: 40px;
+    background: url(../logo/cont2.png);
+}
+
+.logo2::before {
+    background-position: -87px;
+}
+
+.logo3::before {
+    background-position: -129px;
+    width: 39px;
+}
+
+.logo4::before {
+    background-position: -41px;
+    width: 47px;
 }
