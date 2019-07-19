@@ -108,7 +108,6 @@ $colli: #ff3f40;
 }
 
 .second {
-    height: 50px;
     padding-top: 110px;
     background: #ffffff;
 }
@@ -209,4 +208,19 @@ $colli: #ff3f40;
 .logo4::before {
     background-position: -41px;
     width: 47px;
+}
+
+.bolid {
+    height: 3px;
+   max-width: 1250px;
+   width: 90%;
+   margin: 0 auto;
+   border: 2px solid #ececec;
+}
+
+.third {
+    padding-top: 110px;
+    background: #ffffff;
+    color: #000000;
+    height: 50px;
 }
