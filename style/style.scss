@@ -295,3 +295,122 @@ $colli: #ff3f40;
     margin-bottom: 9px;
 }
 
+.fourth {
+    margin-top: 130px;
+    background: #ffffff;
+    color: #000000;
+    margin-bottom: 110px;
+}
+
+.conteiner4 {
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
+    & .h1conteiner4 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        h1 {
+            font-size: 46px;
+            color: #333333;
+            font-weight: 600;
+            margin-left: -12px;
+        }
+        div {
+            font-size: 16px;
+            color: #4c4c4c;
+            width: 450px;
+            text-align: justify;
+            margin-top: 45px;
+        }
+    }
+}
+.bolidInFouth {
+    height: 3px;
+    max-width: 130px;
+    width: 90%;
+    border: 2px solid #ff2d2d;
+    margin-top: 36px;
+    margin-bottom: 70px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+}
+
+.personalMain {
+    width: calc(1250px/4);
+    height: 460px;
+    margin-right: 75px;
+    background: #f5f0dd;
+}
+
+.personalTxtAnother {
+    display: flex;
+    flex-direction: column;
+}
+
+.personalTxt {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #333333;
+        text-transform: uppercase;
+    }
+    div {
+        font-size: 16px ;
+        color: #4c4c4c ;
+    }
+    ul {
+    display: flex;
+    flex-direction: row;
+    width: 56%;
+    font-size: 18px;
+    justify-content: space-between;
+    font-style: italic;
+        a {
+            text-decoration: none;
+            color: #4c4c4c;
+        }
+    }
+}
+
+.personalAnother {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    align-items: flex-end;
+}
+
+.personalAnotherG {
+    width: 195px;
+    height: 215px;
+    background: #f5f0dd;
+    order: 1;
+    display: flex;
+    
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+    &:hover::after {
+        content: "sokina jue";
+        color: #ffffff;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        height: 37px;
+        font-size: 18px;
+        width: 100%;
+        background: #7a786e;
+        order: 2;
+        display: flex;
+        position: relative;
+        top: 177px;
+    }
+}
