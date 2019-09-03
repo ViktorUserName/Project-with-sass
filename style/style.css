@@ -369,7 +369,6 @@
 
 .sixth {
   color: #fdfcf8;
-  height: 51px;
   color: #333333; }
 
 .conteinerSixth {
@@ -396,6 +395,48 @@
   height: 3px;
   max-width: 130px;
   width: 90%;
-  border: 2px solid #ff2d2d; }
+  border: 2px solid #ff2d2d;
+  margin-bottom: 80px; }
+
+.lastC {
+  margin-bottom: 110px; }
+
+.conteinerLast {
+  display: flex;
+  flex-direction: row;
+  max-width: 1250px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between; }
+
+.mainInput {
+  width: 720px;
+  height: 250px;
+  padding-left: 60px;
+  background: #e5e5e5; }
+
+.oneofInput {
+  width: 340px;
+  height: 70px;
+  margin-bottom: 45px;
+  background: #e5e5e5;
+  padding-left: 60px; }
+  .oneofInput:not(:last-child) {
+    margin-right: 36px; }
+
+.backMessage {
+  display: flex;
+  flex-direction: column; }
+
+.ourContact {
+  width: 575px;
+  height: 365px;
+  background: #2d2d2d; }
+
+.footer {
+  background: #313030; }
+
+.menuFoo {
+  height: 110px; }
 
 /*# sourceMappingURL=style.css.map */
